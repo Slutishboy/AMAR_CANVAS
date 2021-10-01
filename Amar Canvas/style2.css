@@ -1,0 +1,59 @@
+body{
+    background-color: #979797;
+    margin : 0%;
+    margin-right: 0;
+    padding-right: 0;
+    padding: 0%;
+    padding-bottom: 50px;
+    width:100%;
+}
+.title{
+    background-color: #979797;
+    margin: 0%;
+   
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+h1{
+    font-family: "Montserrat";
+    color: #070505;
+    /*color: black; **/
+    line-height: 1.5;
+    font-size: 3.5em;
+}
+.container-fluid{
+    padding: 3% 9% 2%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+}
+.nav-item{
+    padding: 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+.abc{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin: 0 5% 5%;
+    padding: 5%;
+    border:thick solid black;
+    border-radius: 1em;
+}
+p{
+    font-size: 1.5em;
+}
+.sub{
+    font-size: 1.2em;
+}
+.sub-head{
+    padding:50px
+}

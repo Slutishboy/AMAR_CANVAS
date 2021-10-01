@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Amar Canvas Contact Us.</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a4067331f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section class="title">
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar  navbar-expand-xl navbar-dark">
+              
+              <a class="navbar-brand xyz" href="#">Amar Canvas</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ml-auto">
+                  <li class="nav-item nope"> 
+                      <a class="nav-link" href="index.html" id="index">Home</a>
+                  </li>
+                  <li class="nav-item nope"> 
+                      <a class="nav-link" href="loginform.html">Login</a>
+                  </li>
+                  <li class="nav-item nope">
+                      <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <li class="nav-item nope">
+                      <a class="nav-link" href="mailto:amarcanvas2021@gmail.com">Download</a>
+                  </li>
+                </ul>
+              </div>
+            
+            </nav> 
+        </section>
+        <section class="contact">
+            <form action="" method="GET"  name="myForm">
+  
+                <!-- <form action="mailto:sohomsaha361@gamil.com" method="POST" enctype="text/plain"> -->
+                   <h1 class="main_heading"  >Payment Portal</h1>
+                   <p class=" sub">Required feilds are marked with *</p>
+                   <h2 class="sub-head">Contact Information</h2>
+                   <p>*Name: <input type="text" name="name" placeholder="" required/></p>
+                   <fieldset>
+                      
+                    <p>Gender:     Male <input type="radio" name="gender" id="Male"  />     Female <input type="radio" name="gender" id="Female" />     Others <input type="radio" name="gender" id="Others"/> </p>
+                <!--awdmanfaufnufn-->
+                 </fieldset>
+                 <p ><p class="add">*Address:</p> <textarea name="address" id="address" cols="100" rows="5" placeholder="Enter your address"></textarea></p>
+                 <p>*Email: <input type="email" name="email" id="email" placeholder="" required></p>
+                 
+                 <p>*Pincode<input type="number" name="pincode" id="pincode" required></p>
+                 <br>
+                 <br>
+                 <!-- IMPORTANT WAY TO MAKE A FORM BELOW-->
+                
+                 <hr>
+                 <h2 class="sub-head">Payment Details</h2>
+                 <p class="sub">Please put below the details on how you want to proceed the transaction.</p>
+                 <p>*Card Type:
+                     <select name="cardType" id="cardType" required>
+                         <option value="">--Select a card type--</option>
+                         <option value="visa">Visa</option>
+                         <option value="mastercard">Mastercard</option>
+                         <option value="rupay">Rupay</option>
+                     </select>
+                 </p>
+               
+                 <p id="CdNO" class="XYZ">*Card Number <input type="number" placeholder="XXXX-XXXX-XXXX-XXXX" name="Cnumber" id="Cnumber" required></p>
+                 <p id="EXP">*Expiry Date: <input type="date" name="date" id="date" required ></p>
+                 <p id="CVV">*CVV <input type="password" name="cvv" id="cvv"   placeholder="***" required></p>
+                <!-- <input type="submit" value="Pay Now" class="btn btn-dark btn-lg" onclick="return check()"> -->
+                <a href="#" type="submit"  class="btn btn-dark btn-lg" onclick="return check()" id="pay">Pay Now</a>
+                 <br>
+                 </form>
+        </section>
+        <script src="contact.js"></script>
+
+</body>
+</html>
